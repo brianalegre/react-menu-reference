@@ -1,11 +1,20 @@
-import './App.css';
+// Import
+import React from "react";
+import "./index.css";
 
+
+// Import Components
+import Menu from "./Components/Menu";
+
+
+// Main Application
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline text-green-500">
-      Hello world!
-    </h1>
+    <div>
+      <Menu />
+    </div>
   )
-}
+};
+
 
 export default App;
